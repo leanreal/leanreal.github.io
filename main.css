@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+html, body {
+    height:100%;
+    margin: 0;
+}
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "brush script m7", cursive;
+    background-color: black;
+}
+h1 {
+    position: relative;
+    text-transform: lowercase;
+    letter-spacing: normal;
+    font-size: 15px;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-size:: 120% 100%;
+    -webkit-background-clip: text;
+    
+}
