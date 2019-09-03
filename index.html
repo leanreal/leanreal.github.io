@@ -21,49 +21,37 @@ font-family: Helvetica Neue, sans-serif;
 background-color: #ffcce6;
 }
 
-header {background-color: white;
+header {background-color: #ffcce6;
   padding: 0.0000125px;
   text-align: center;
   font-size: 30px;
   color: black;
 }
-/* Create two columns/boxes that floats next to each other */
-nav {
+
+    
+    
+    /* Style the topnav links */
+.topnav a {
   float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ffccf2;
-  padding: 20px;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
 }
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: lightpink;
+  color: black;
+}
+
 
 /* Style the list inside the menu */
 nav ul {
   list-style-type: none;
-  padding: 0;
-}
+  padding: 0px;
 
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
-}
-
-/* Style the footer */
-footer {
-  background-color: #ffccf2;
-  padding: 10px;
-  text-align: center;
-  color: #ffccf2;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
 }
 
           
@@ -73,6 +61,7 @@ footer {
        </style>       
 
 </head>
+    
 <head>
 <body>
 <div class="header; font-color=color: black;">
@@ -82,30 +71,29 @@ footer {
     </head>
 
 <body>
-    <h3 style="text-align: center">Lean Real</h3>
+    <h3 style= "text-align: center">Lean's Website</h3>
     <p style="text-font: Helvetica Neue; text-align: center"><i>self love is the best love</i></p>
     </body>
 
 <body>
 <nav>
 <ul>
-
+    <div class="topnav">
    <li style="font-size:75%;"><a class="active" href="/index.html">HOME</a></li>
   <li style="font-size:75%;"><a href="/About/index.html">ABOUT</a></li>
   <li style="font-size:75%;"><a href="Work Portfolio/index.html">PORTFOLIO</a></li>
   <li style="font-size:75%;"><a href="/Music/index.html">CONTACT</a></li>
   <li style="font-size:75%;"><a href="/Contact/index.html">INTERESTING</a></li>
+    </div>
 </ul>
 </nav>
- <div class="row">
-    <div class="column">
- 
-     </div>
-    </div>
+    
 
 <body>
 	<header><img src="IMG_8259.JPG" width="360" height="360"> <img src="peppa.jpg"></header>
-   <p>buttercup cover by mxmtoon</p>
+    
+    <p>HI</p>
+    <!---audio--->
     <audio autoplay>
    <source src="mxmtoon-build-me-up-buttercup.mp3" type="audio/mp3" autoplay="true" loop="loop">
 	    <source src="mxmtoon-build-me-up-buttercup.mp3" type="audio/mp3" autoplay="true" loop="loop">
@@ -116,5 +104,7 @@ footer {
 </body>
     
     </body>
+    
+    
     
     </html>
