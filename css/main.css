@@ -8,9 +8,9 @@ body {
 <head>
 <style>
 
-body {background-color: powderblue;
+body {background-color: #ffcce6;
     }
-h1   {color: blue;
+h1   {color: #ffcce6;
     position: relative;
     text-transform: lowercase;
     letter-spacing: 6px;
@@ -23,24 +23,17 @@ h1   {color: blue;
     -webkit-background clip: text;
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
-    
-    animation: .8s shake infinite alternate;
 }
-
-@keyframes shake {
-    0% {transform: skewX(-15deg);}
-    5% {transform: skewX(15deg);}
-    10% {transform: skewX(-15deg);}
 
 }
 
-p    {color: red;}
+p    {color: white;}
 </style>
 </head>
 <body>
-
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+    <h3 style= "text-align: center">Lean's Website</h3>
+    <p style="text-font: Helvetica Neue; text-align: center"><i>self love is the best love</i></p>
+   
 
 </body>
 </html>
