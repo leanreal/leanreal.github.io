@@ -10,8 +10,13 @@ body {
 <style>
 
 body {background-color: #ffcce6;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Helvetica Nueue', serif;
     }
-h1   {color: #ffcce6;
+h3   {color: #ffcce6;
+	font-family: 'Source code Pro', monospace;
     position: relative;
     text-transform: lowercase;
     letter-spacing: 6px;
@@ -24,9 +29,31 @@ h1   {color: #ffcce6;
     -webkit-background clip: text;
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+	-ms-background-clip: text;
+	-ms-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+	background-image: linear-gradient (45deg,
+		#7794ff
+		#44107A
+		#FF1361
+		#FFF800);
+	animation: .8s shake infinite alternate;
+	
 }
 
-p    {color: white;}
+@keyframes shake {
+	0% { transform: skewX(-15deg); }
+	5% { transform: skewX(15deg); }
+	10% { transform: skewX(-15deg); }
+	15% { transform: skewX(15deg); }
+	20% { transform: skewX(0deg); }
+	100% { transform: skewX(0deg); }
+	
+
+p    {color: white;
+	text-align: center;}
 
 </style>
 </head>
