@@ -132,17 +132,7 @@ p    {color: white;}
 <Div style="margin-top:4px;">
 <!-- YOUR MUSIC CODE GOES HERE, RIGHT AFTER THIS LINE. -->
 	<audio controls>
-		<source src="mxmtoon-build-me-up-buttercup.mp3" type="audio/mp3" autostart="true" loop="false"
-volume="60" />
-	   <!--This displays an error to users that don't have it supported
-	    Audio Credit goes to The foundations build-me-up-buttercup cover from mxmtoon -->
-		<source src="khai-dreams-sunkissed.mp3"  type="audio/mp3" loop="false"
-volume="60" />
-		<!--Audio Credit goes to khai dreams---> 
-   Your browser does not support the audio element.
-		<source src="mounika-cut-my-hair-feat-cavetown.mp3"  type="audio/mp3" loop="false"
-volume="60" />
-		<!--Audio credits to mounika-->
+		<embed src="https://www.sheepproductions.com/billy/billy.swf?autoplay=false&f0=https://drive.google.com/file/d/1CsZNZuh9lXmxkaZ1EifdHQPsRIQD7u8V/view?usp=sharing&t0=sunkissed-khai dreams&f1=https://drive.google.com/file/d/1XYGEccrPmKMMsz0uzG2egk9-Jv_Tanlp/view?usp=sharing&t1=buttercup cover-mxmtoon&f2=https://drive.google.com/file/d/1AJPZI_dF_fXH8C31BwoFO5qY21JxsgFE/view?usp=sharing&t2=chivalry is dead - trevor wesley&total=3" quality="high" wmode="transparent" width="200" height="10" name="billy" align="middle" type="application/x-shockwave-flash" />
 	</audio>
 	    
 </div>
@@ -159,42 +149,6 @@ volume="60" />
 </div>
 </div>
 
-<!--------------- TYPING/MOVING TITLE ----------------------->
-
-<script type="text/javascript">
-var rev = "fwd";
-function titlebar(val)
-{
-var msg = "L E A N";
-var res = " ";
-var speed = 100;
-var pos = val;
-msg = "L E A N";
-var le = msg.length;
-if(rev == "fwd"){
-if(pos < le){
-pos = pos+1;
-scroll = msg.substr(0,pos);
-document.title = scroll;
-timer = window.setTimeout("titlebar("+pos+")",speed);}
-else{
-rev = "bwd";
-timer = window.setTimeout("titlebar("+pos+")",speed);}}
-else{
-if(pos > 0){
-pos = pos-1;
-var ale = le-pos;
-scrol = msg.substr(ale,le);
-document.title = scrol;
-timer = window.setTimeout("titlebar("+pos+")",speed);}
-else{
-rev = "fwd";
-timer = window.setTimeout("titlebar("+pos+")",speed);
-}}}
-titlebar(0);
-</script>
-
-	
 
 </body>
     
