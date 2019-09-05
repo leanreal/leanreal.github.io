@@ -25,9 +25,92 @@ h1   {color: #ffcce6;
     -moz-background-clip: text;
 }
 
-}
-
 p    {color: white;}
+
+#editthis{
+    /* EDIT THIS STUFF TO POSITION YOUR MUSIC PLAYER */
+    position:fixed;
+    top:20px; /* YOU CAN CHANGE THIS TO BOTTOM */
+    left:20px; /* YOU CAN CHANGE THIS TO RIGHT */
+    z-index:99;}
+    
+/* I DON'T RECOMMEND TOUCHING THIS STUFF */
+#music1{
+    position:fixed;
+    padding:2px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;}
+    
+#music1:hover #music2{
+    opacity:0;
+    margin-top:-25px;
+    z-index:-1;}
+    
+#music1:hover #music3{
+    opacity:1;
+    margin-top:-5px;
+    z-index:99;}
+    
+#music1:hover #musiclist{
+    opacity:1;}
+    
+#music2{
+    /* THIS IS THE GIF DIV */
+    opacity:1;
+    background-color:#fff;
+    border:1px dotted #ccc; 
+    padding:6px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;}
+    
+#music3{
+    /* THIS IS THE ACTUAL MUSIC PLAYER DIV */
+    opacity:0;
+    position:fixed;
+    background-color:#fff;
+    border:1px dashed #ccc; 
+    width:55px;
+    height:20px;
+    z-index:99;
+    margin-left:-5px;
+    overflow:hidden;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;}
+    
+#musiclist{
+    /* THIS IS THE PLAYLIST DIV */
+    opacity:0;
+    position:fixed;
+    padding:6px;
+    border:1px dashed #ccc; 
+    margin-left:10px;
+    margin-top:10px;
+    font-family:consolas;
+    font-size:8px;
+    background-color:#fff;
+    width:120px;
+    color:#999;
+    text-transform:uppercase;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;}
+    
+#musiclist h1{ 
+    /*THIS IS THE PLAYLIST TITLE SETTINGS*/
+    font-family:consolas;
+    font-size:11px;
+    margin-top:0px;
+    margin-bottom:2px;
+    font-style:normal;
+    font-weight:normal;
+    color:#1bbafc; /*THIS IS THE PLAYLIST TITLE COLOR*/
+    border-bottom:1px dotted #ccc;
+    text-align:left;
+    text-transform:uppercase;}
+
 </style>
 </head>
 <body>
