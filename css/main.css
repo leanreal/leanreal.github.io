@@ -116,8 +116,11 @@ p    {color: white;}
 <body>
     <h3 style= "text-align: center">Lean's Website</h3>
     <p style="text-font: Helvetica Neue; text-align: center"><i>self love is the best love</i></p>
-	
-	<div id="editthis">
+	</body>
+
+		<!---playlist--->
+	<body>
+		<div id="editthis">
 <div id="music1">
 <div id="music2">
 
@@ -128,10 +131,17 @@ p    {color: white;}
 <Div style="margin-top:4px;">
 <!-- YOUR MUSIC CODE GOES HERE, RIGHT AFTER THIS LINE. -->
 	<audio controls>
-   <source src="mxmtoon-build-me-up-buttercup.mp3" type="audio/mp3">
+		<source src="mxmtoon-build-me-up-buttercup.mp3" type="audio/mp3" autostart="true" loop="false"
+volume="60" />
 	   <!--This displays an error to users that don't have it supported
 	    Audio Credit goes to The foundations build-me-up-buttercup cover from mxmtoon -->
+		<source src="khai-dreams-sunkissed.mp3"  type="audio/mp3" loop="false"
+volume="60" />
+		<!--Audio Credit goes to khai dreams---> 
    Your browser does not support the audio element.
+		<source src="mounika-cut-my-hair-feat-cavetown.mp3"  type="audio/mp3" loop="false"
+volume="60" />
+		<!--Audio credits to mounika-->
 	</audio>
 	    
 </div>
@@ -140,13 +150,15 @@ p    {color: white;}
 <div id="musiclist">
 <h1>Playlist</h1>
 <!-- PUT YOUR MUSIC TITLES HERE. BE SURE TO ADD A BREAK AFTER EACH ONE. -->
-01. buttercup cover-mxmtoon <br>
-02. Song2 <br>
-03. Song3 <br>
+01. buttercupcover-mxmtoon <br>
+02. kai dreams <br>
+03. daniel caesar <br>
 </div>
 
 </div>
 </div>
+	
+
 	
 
 </body>
