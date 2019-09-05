@@ -116,6 +116,41 @@ p    {color: white;}
 <body>
     <h3 style= "text-align: center">Lean's Website</h3>
     <p style="text-font: Helvetica Neue; text-align: center"><i>self love is the best love</i></p>
+	
+	<div id="editthis">
+<div id="music1">
+<div id="music2">
+
+<!-- YOU CAN CHANGE THE MUSIC GIF BELOW. -->
+<img src="http://i122.photobucket.com/albums/o260/mhilka/minigifs/minigif01.gif"></div>
+
+<div id="music3">
+<Div style="margin-top:4px;">
+<!-- YOUR MUSIC CODE GOES HERE, RIGHT AFTER THIS LINE. -->
+	<audio controls>
+   <source src="mxmtoon-build-me-up-buttercup.mp3" type="audio/mp3">
+	   <!--This displays an error to users that don't have it supported
+	    Audio Credit goes to The foundations build-me-up-buttercup cover from mxmtoon -->
+   Your browser does not support the audio element.
+	</audio>
+	    
+</div>
+</div>
+
+<div id="musiclist">
+<h1>Playlist</h1>
+<!-- PUT YOUR MUSIC TITLES HERE. BE SURE TO ADD A BREAK AFTER EACH ONE. -->
+01. buttercup cover-mxmtoon <br>
+02. Song2 <br>
+03. Song3 <br>
+</div>
+
+</div>
+</div>
+	
+
+</body>
+    
    
 
 </body>
